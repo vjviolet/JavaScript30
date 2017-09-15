@@ -1,2 +1,2 @@
 # JavaScript30
-> [JavaScript30](https://javascript30.com) 是 [Wes Bos](https://github.com/wesbos) 推出的一个 30 天挑战。中文翻译是由©[缉熙Soyaine](https://github.com/soyaine)提供。这里只是本人自己的练习。
+> 这里之后将提供我自己的一些小练习，东西全部来自一些[小案例](http://www.fgm.cc/learn/)
