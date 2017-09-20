@@ -1,0 +1,13 @@
+#container {
+	width: 200px;
+	height: 300px;
+	margin: 10px auto;
+}
+
+#container input {
+	margin: 10px auto;
+}
+
+#container button {
+	margin: 10px auto;
+}
