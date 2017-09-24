@@ -1,0 +1,39 @@
+
+
+#div {
+	width: 200px;
+	height: 200px;
+	color: white;
+	margin: 0px auto;
+	padding: 10px;
+	border: 10px solid black;
+	/*这里要注意的是,如果这里不定义border,那么在下面的内容中,border会自己像外扩*/
+	background: black;
+}
+
+#div.on {
+	/*这里两个选择器指向同一个容器,中间不能有空格,而且一定要加上id,这样优先级会变高，或者两个都用class*/
+	color: red;
+	background: gray;
+	border: 10px solid red;
+}
+
+/*.on {
+	width: 200px;
+	height: 200px;
+	color: red;
+	border: 10px solid red;
+	background: gray;
+	margin: 0 auto;
+	padding: 10px;
+}
+.out {
+	width: 200px;
+	height: 200px;
+	color: color;
+	border: 10px solid black;
+	background: black;
+	margin: 0 auto;
+	padding: 10px;
+}*/
+/*这里不能这么写,因为这样进来的话就没有默认的样式.*/
