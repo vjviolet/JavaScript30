@@ -1,0 +1,30 @@
+body, div, ul, li {
+	margin: 0;
+	padding: 0;
+}
+
+#outer {
+	width: 100px;
+	margin: 10px auto;
+	
+}
+
+#select ul li {
+	list-style-type: none;
+	text-align: center;
+	height: 25px;
+	/*background-color: gray;*/
+}
+#select ul {
+	margin-top: 5px;
+	width: 70px;
+	border: 1px solid cadetblue;
+}
+
+#select ul li:nth-child(3) {
+	border-top: 1px solid cadetblue;
+}
+
+#select {
+	display: none;
+}
