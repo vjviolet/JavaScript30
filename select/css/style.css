@@ -1,8 +1,12 @@
 body, div, ul, li {
 	margin: 0;
 	padding: 0;
+	cursor: pointer;
 }
 
+input {
+	cursor: pointer;
+}
 #outer {
 	width: 100px;
 	margin: 10px auto;
