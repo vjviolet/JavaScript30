@@ -1,0 +1,25 @@
+input {
+	width: 200px;
+}
+
+#container {
+	width: 450px;
+	margin: 10px auto;
+}
+
+button {
+	margin-top: 10px;
+}
+
+#result {
+	margin-top: 10px;
+	/*border: 1px solid red;*/
+	font: 40px;
+	color: red;
+	
+}
+
+span {
+	font-size: 10px;
+	color: gray;
+}
