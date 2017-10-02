@@ -1,0 +1,35 @@
+#outer {
+	width: 700px;
+	overflow: hidden;
+	border: 1px solid black;
+	margin: 10px auto;
+}
+
+#outer ul li {
+	width: 128px;
+	height: 128px;
+	float: left;
+	list-style-type: none;
+	margin: 5px;
+	border: 1px solid #eee;
+	opacity: 0.3;
+	filter: alpha(opacity=30);
+}
+
+html body {
+	margin: 0;
+	padding: 0;
+}
+
+ul, li {
+	/*这里要将列表的margin和padding全部去掉,不然会占很多空间*/
+	margin: 0;
+	padding: 0;
+}
+
+#outer ul li.current {
+	opacity: 1;
+	filter: alpha(opacity=30);
+	cursor: crosshair;
+	
+}
