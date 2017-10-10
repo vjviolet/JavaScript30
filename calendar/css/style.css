@@ -1,0 +1,53 @@
+html, body, ul, li {
+	margin: 0;
+	padding: 0;
+}
+
+.container li {
+	list-style-type: none;
+	width: 40px;
+	height: 40px;
+	border: 1px solid gray;
+	margin: 10px 10px 0 0;
+	padding: 5px;
+	line-height: 1.2;
+	background: darkgray;
+	float: left;
+	text-align: center;
+}
+
+.container ul {
+	width: 250px;
+	/*border: 1px solid greenyellow;*/
+	overflow: hidden;
+	padding: 0 0 10px 10px;
+	cursor: pointer;
+}
+
+#msg {
+	width: 240px;
+	border: 1px solid white;
+	font-size: 10px;
+	margin: 0 0 10px 10px;
+}
+
+.container {
+	margin: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	width: 260px;
+	padding-bottom: 5px;
+	background: #eee;
+}
+
+.container strong {
+	display: block;
+	text-align: center;
+}
+
+ul .current {
+	background-color: floralwhite;
+	color: lightpink;
+}
